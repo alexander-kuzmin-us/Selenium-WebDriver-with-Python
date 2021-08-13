@@ -19,4 +19,3 @@ class SecureAreaPage:
         page_phrase = self.browser.find_element(*self.WELCOME_PHRASE)
         text = page_phrase.text
         return text
-
