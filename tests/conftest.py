@@ -11,6 +11,9 @@ def browser():
     # Initialize the GeckoDriver instance
     b = selenium.webdriver.Firefox()
 
+    # Maximise the window
+    b.maximize_window()
+
     # Make its calls wait up to 10 seconds for elements to appear
     b.implicitly_wait(10)
 
