@@ -1,5 +1,6 @@
 """
-A Test for logout function. User should be able to log out
+A Test for logout function.
+User should be able to log out.
 """
 from pages.login_page import TheInternetLoginPage
 from pages.secure_area_page import SecureAreaPage

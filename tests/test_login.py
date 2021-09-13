@@ -1,5 +1,6 @@
 """
-Test for login page with valid credentials
+A Test for login page with valid credentials.
+User should be able to login with valid credentials.
 """
 
 from pages.login_page import TheInternetLoginPage
