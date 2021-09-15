@@ -19,7 +19,6 @@ def test_logout(browser):
     login_page.username(USER_NAME)
     login_page.password(PASSWORD)
     login_page.login_button()
-    assert PHRASE == secure_page.welcome_phrase()
 
     # When the user click the "Logout" button
     secure_page.logout_button()
