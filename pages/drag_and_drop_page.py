@@ -27,4 +27,4 @@ class DragAndDropPage:
         action = ActionChains(self.browser)
         source = self.browser.find_element(*self.SOURCE)
         target = self.browser.find_element(*self.TARGET)
-        action.drag_and_drop(source, target)
+        action.drag_and_drop(source, target).perform()
